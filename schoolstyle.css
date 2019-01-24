@@ -7,8 +7,12 @@ body  {
   background-image: url("carbonhill.jpg");
   background-color: white;
 }
+h1 {  
+background-color: #0000CD;
+} 
+
 h1 {
-	color: blue;
+	color: black;
 }
 body {
   font-size: 28px;

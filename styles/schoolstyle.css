@@ -7,12 +7,10 @@ body  {
   background-image: url("carbonhill.jpg");
   background-color: white;
 }
+
 h1 {  
 background-color: #0000CD;
-} 
-
-h1 {
-	color: black;
+color: black;
 }
 body {
   font-size: 28px;
@@ -43,7 +41,6 @@ li a {
 
 li a:hover {
   background-color: #111;
-  
 }
 
 .active {

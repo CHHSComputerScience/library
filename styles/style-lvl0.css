@@ -21,11 +21,11 @@ body {
 	}
 
 .stickybar{
-
 	position: -webkit-sticky;
 	position: sticky;
 	top: 0;
 }
+
 .stickybar ul {
   list-style-type: none;
   overflow: hidden;
@@ -49,7 +49,6 @@ body {
 
 .stickybar li a:hover {
   background-color: #111;
-
 }
 
 .active {

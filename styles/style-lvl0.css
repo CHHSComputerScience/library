@@ -1,35 +1,41 @@
 .header {
-	background-color:white;
+	background-color: blue;
 	text-align: center;
+	font-size: 48px;
+	font-weight: bolder;
 	padding: 40px;
+	border-bottom: solid grey 1px;
 }
-body  {
-  background-image: url("carbonhill.jpg");
-  background-color: white;
-}
+
 h1 {
 	color: blue;
 }
+
 body {
   font-size: 28px;
+	background-color: grey;
 }
 
-ul {
+.phone {
+	text-decoration: none;
+	}
+.stickybar ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
   background-color: #333;
-  position: -webkit-sticky;
+	position: -webkit-sticky;
   position: sticky;
-  top: 0;
+	top: 0;
 }
 
-li {
+.stickybar li {
   float: left;
+
 }
 
-li a {
+.stickybar li a {
   display: block;
   color: white;
   text-align: center;
@@ -37,7 +43,7 @@ li a {
   text-decoration: none;
 }
 
-li a:hover {
+.stickybar li a:hover {
   background-color: #111;
 
 }
@@ -45,9 +51,11 @@ li a:hover {
 .active {
   background-color: blue;
 }
-#footer{
-	border: 5px white;
-	background-color:white;
+
+.footer{
+	background-color: grey;
 	text-align: left;
-	padding: 10px;
+	font-size: 12px;
+	bottom: 0;
+	width: 100%;
 }

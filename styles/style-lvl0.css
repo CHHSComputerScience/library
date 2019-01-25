@@ -6,9 +6,7 @@ body {
 }
 
 header {
-	position: relative;
-	top: 0;
-	height: 6em;
+	padding: 0.5em;
 	width: 100%;
 	background-color: blue;
 	text-align: center;
@@ -46,6 +44,7 @@ address {
 
 nav {
 	position: sticky;
+	top: 0;
 	}
 
 nav ul {

@@ -1,4 +1,4 @@
-.header {
+header {
 	background-color: blue;
 	text-align: center;
 	font-size: 48px;
@@ -21,24 +21,19 @@ address {
 		font-size: 14px;
 }
 
-.map {
-	width: 450px;
-	height: 300px;
-	border: solid grey 5px;
-	padding: 10px;
-}
 .phone {
 	text-decoration: none;
 	text-align: right;
 	}
 
-.stickybar{
+nav {
 	position: -webkit-sticky;
 	position: sticky;
 	top: 0;
 }
 
-.stickybar ul {
+nav ul {
+	width: 100%;
   list-style-type: none;
   overflow: hidden;
   background-color: #333;
@@ -46,12 +41,12 @@ address {
 	padding: 0;
 }
 
-.stickybar li {
+nav li {
   float: left;
 
 }
 
-.stickybar li a {
+nav li a {
   display: block;
   color: white;
   text-align: center;
@@ -59,7 +54,7 @@ address {
   text-decoration: none;
 }
 
-.stickybar li a:hover {
+nav li a:hover {
   background-color: #111;
 }
 
@@ -67,7 +62,7 @@ address {
   background-color: blue;
 }
 
-.footer {
+footer {
 	background-color: grey;
 	text-align: left;
 	font-size: 12px;

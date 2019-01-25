@@ -16,8 +16,20 @@ body {
 	background-color: grey;
 }
 
+address {
+		text-align: left;
+		font-size: 14px;
+}
+
+.map {
+	width: 450px;
+	height: 300px;
+	border: solid grey 5px;
+	padding: 10px;
+}
 .phone {
 	text-decoration: none;
+	text-align: right;
 	}
 
 .stickybar{
@@ -55,7 +67,7 @@ body {
   background-color: blue;
 }
 
-.footer{
+.footer {
 	background-color: grey;
 	text-align: left;
 	font-size: 12px;

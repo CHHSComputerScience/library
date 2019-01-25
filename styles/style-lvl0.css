@@ -19,15 +19,19 @@ body {
 .phone {
 	text-decoration: none;
 	}
+
+.stickybar{
+
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+}
 .stickybar ul {
   list-style-type: none;
-  margin: 0;
-  padding: 0;
   overflow: hidden;
   background-color: #333;
-	position: -webkit-sticky;
-  position: sticky;
-	top: 0;
+	margin: 0;
+	padding: 0;
 }
 
 .stickybar li {

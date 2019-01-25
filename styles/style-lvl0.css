@@ -58,6 +58,11 @@ nav li a:hover {
   background-color: #111;
 }
 
+.welcomeshow {
+	align: center;
+	border-style: hidden;
+}
+
 .active {
   background-color: blue;
 }

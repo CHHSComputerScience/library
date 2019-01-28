@@ -1,0 +1,35 @@
+html,body           {
+	margin          :0;
+	padding         :0;
+	border          :0;
+	outline         :0;
+                    }
+	         
+#banner
+                    {   
+	border          : 10px solid gray;
+    background-color: #0000CD;
+    width           : 1420px; 
+	height          : 80px; 
+	                }
+#header
+                    {
+	font-size       : 70;
+	text-align      : right;	   
+	font-family     : Impact;
+	color           : white;
+	float			: left;
+
+	
+	
+					} 
+#paw 				{
+	float: left;
+	margin-right: 30px;
+	padding  : 5px;
+}
+
+
+
+
+ 

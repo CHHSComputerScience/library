@@ -12,6 +12,7 @@ header {
 	color: white;
 	text-align: center;
 	font-weight: bolder;
+	float: left;
 }
 
 main {
@@ -28,6 +29,8 @@ footer {
 	position: active;
 	bottom: 0;
 	width: 100%;
+	float: left;
+	min-width: 100%;
 }
 footer a {
 	color: white;
@@ -55,7 +58,7 @@ nav {
 	}
 
 nav ul {
-	width: 100%;
+	width: 102.1%;
   list-style-type: none;
   overflow: hidden;
   background-color: #333;

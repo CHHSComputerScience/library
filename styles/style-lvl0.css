@@ -1,10 +1,23 @@
+/* Styling the body, mainly to clear margin/padding */
 body {
 	background-color: grey;
 	font-size: 12px;
 	margin: 0;
 	padding: 0;
 }
+/*********************************/
 
+/* Global style changes */
+h1 {
+	font-size: 4em;
+}
+
+address {
+	font-size: 1.5em;
+}
+/*********************************/
+
+/* Styling for the header */
 header {
 	padding: 15px;
 	width: 100%;
@@ -14,13 +27,17 @@ header {
 	font-weight: bolder;
 	float: left;
 }
+/*********************************/
 
+/* Styling of the main content */
 main {
 	margin: 1em;
 	padding: 1em;
 	font-size: 2em;
 }
+/*********************************/
 
+/* Styling the footer */
 footer {
 	background-color: #2222FF;
 	color: white;
@@ -37,14 +54,6 @@ footer a {
 	color: white;
 }
 
-h1 {
-	font-size: 4em;
-}
-
-address {
-	font-size: 1.5em;
-}
-
 .leftfooter {
 	display: inline-block;
 }
@@ -57,7 +66,9 @@ address {
 	float: right;
 	margin-right: 20px;
 	}
+/*********************************/
 
+/* Style the navigation bar */
 nav {
 	position: active;
 	top: 0;
@@ -89,7 +100,9 @@ nav a:hover {
 .active {
   	background-color: blue;
 }
+/*********************************/
 
+/* Styling embedded google files */
 .map {
 	border-style: none;
 	width: 50%;
@@ -107,3 +120,4 @@ span {
   	float: left;
   	width: 50%;
 }
+/*********************************/

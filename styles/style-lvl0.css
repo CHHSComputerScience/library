@@ -14,7 +14,6 @@ header {
 	text-align: center;
 	font-weight: bolder;
 	float: left;
-	
 }
 
 main {
@@ -34,9 +33,11 @@ footer {
 	float: left;
 	min-width: 100%;
 }
+
 footer a {
 	color: white;
 }
+
 h1 {
 	font-size: 4em;
 }
@@ -47,8 +48,8 @@ address {
 
 .leftfooter {
 	display: inline-block;
-	
 }
+
 .phone {
 	font-size: 1.25em;
 	text-decoration: none;
@@ -94,6 +95,3 @@ nav a:hover {
 .active {
   background-color: blue;
 }
-
-
-

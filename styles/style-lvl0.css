@@ -42,7 +42,7 @@ h1 {
 }
 
 address {
-		font-size: 1.5em;
+	font-size: 1.5em;
 }
 
 .leftfooter {
@@ -65,25 +65,29 @@ nav {
 
 nav ul {
 	width: 102.1%;
-  list-style-type: none;
-  overflow: hidden;
-  background-color: #333;
+  	list-style-type: none;
+  	overflow: hidden;
+  	background-color: #333;
 	margin: 0;
 	padding: 0;
 }
 
 nav li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 1em 1em;
-  text-decoration: none;
+  	display: block;
+  	color: white;
+  	text-align: center;
+  	padding: 1em 1em;
+	text-decoration: none;
 	font-size: 2em;
 	float: left;
 }
 
 nav a:hover {
-  background-color: #111;
+  	background-color: #111;
+}
+
+.active {
+  	background-color: blue;
 }
 
 .map {
@@ -100,10 +104,6 @@ nav a:hover {
 }
 
 span {
-  float: left;
-  width: 50%;
-}
-
-.active {
-  background-color: blue;
+  	float: left;
+  	width: 50%;
 }

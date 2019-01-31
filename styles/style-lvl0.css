@@ -29,9 +29,11 @@ footer {
 	bottom: 0;
 	width: 100%;
 }
+
 footer a {
 	color: white;
 }
+
 h1 {
 	font-size: 4em;
 }
@@ -39,9 +41,11 @@ h1 {
 address {
 		font-size: 1.5em;
 }
+
 .leftfooter {
 	display: inline-block;
 }
+
 .phone {
 	font-size: 1.25em;
 	text-decoration: none;
@@ -77,9 +81,22 @@ nav a:hover {
   background-color: #111;
 }
 
+.map {
+	border-style: none;
+	width: 50%;
+	float: right;
+}
+
 .welcomeshow {
 	border-style: none;
-	length:40%;
+	width: 50%;
+	height: 600px;
+	float: right;
+}
+
+span {
+  float: left;
+  width: 50%;
 }
 
 .active {

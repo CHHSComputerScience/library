@@ -102,6 +102,15 @@ nav a:hover {
 }
 /*********************************/
 
+/* Links page tile stylings */
+.tiles {
+	border: outset 2px white;
+	padding: 5px;
+	margin: 10px;
+}
+
+/*********************************/
+
 /* Styling embedded google files */
 .map {
 	border-style: none;

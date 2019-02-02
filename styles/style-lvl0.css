@@ -18,6 +18,20 @@ address {
 /*********************************/
 
 /* Styling for the header */
+/*
+#banner {
+	border          : 10px solid gray;
+    background-color: #0000CD;
+    width           : 1420px;
+	height          : 80px;*/
+}
+
+#paw {
+	float: left;
+	margin-right: 30px;
+	padding  : 5px;
+}
+
 header {
 	padding: 15px;
 	width: 100%;
@@ -26,6 +40,11 @@ header {
 	text-align: center;
 	font-weight: bolder;
 	float: left;
+/*	font-size       : 70;
+	text-align      : right;
+	font-family     : Impact;
+	color           : white;
+	float			: left;*/
 }
 /*********************************/
 

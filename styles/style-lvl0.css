@@ -19,7 +19,7 @@ address {
 
 /* Styling for the header */
 header {
-	padding: 15px;
+
 	width: 100%;
 	background-color: blue;
 	color: white;
@@ -41,7 +41,7 @@ main {
 footer {
 	background-color: #2222FF;
 	color: white;
-	padding: 15px;
+	/*padding: 15px;*/
 	text-align: left;
 	position: active;
 	bottom: 0;
@@ -56,14 +56,15 @@ footer a {
 
 .leftfooter {
 	display: inline-block;
+	padding-left: 5%;
 }
 
 .phone {
 	font-size: 1.25em;
 	text-decoration: none;
 	display: inline-block;
-	margin-left: 20px;
 	float: right;
+	margin-left: 20px;
 	margin-right: 20px;
 	}
 /*********************************/
@@ -72,10 +73,11 @@ footer a {
 nav {
 	position: active;
 	top: 0;
+	width: 100%;
 	}
 
 nav ul {
-	width: 102.1%;
+	width: 100%;
   	list-style-type: none;
   	overflow: hidden;
   	background-color: #333;
@@ -139,8 +141,22 @@ nav a:hover {
 	float: right;
 }
 
+.events-show {
+	frameborder: 0;
+	width: 58%;
+	height: 300px;
+	allowfullscreen: true;
+	mozallowfullscreen: true;
+	webkitallowfullscreen: true;
+}
+.events-list {
+	frameborder: 0;
+	width: 38%;
+	height: 300px;
+}
+
 span {
   	float: left;
-  	width: 50%;
+  	width: 48%;
 }
 /*********************************/

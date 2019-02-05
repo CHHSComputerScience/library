@@ -52,6 +52,7 @@ footer {
 
 footer a {
 	color: white;
+	text-decoration: none;
 }
 
 .leftfooter {
@@ -60,12 +61,12 @@ footer a {
 }
 
 .phone {
-	font-size: 1.25em;
+	font-size: 1.75em;
 	text-decoration: none;
 	display: inline-block;
 	float: right;
-	margin-left: 20px;
-	margin-right: 20px;
+	margin-left: 2%;
+	margin-right: 5%;
 	}
 /*********************************/
 
@@ -117,6 +118,7 @@ nav a:hover {
 .tiles:hover {
 	background-color: #444444;
 }
+
 .img-tiles {
 	padding-left: .5em;
 	padding-right: .5em;

@@ -1,0 +1,119 @@
+body 
+				       {
+       background-color: gray;
+	          font-size: 12px;
+	             margin: 0;
+	                   }
+
+#banner             
+                       {
+                 border: 10px solid white;
+       background-color: #0000CD;
+                  width: 1420px; 
+	             height: 80px;				 
+                       }           
+	
+#header       
+					   {
+	          font-size: 70px;
+	        font-family: Impact;
+	              color: white;
+	              float: left;
+               position: center;				  
+					   }
+					   
+#pawprint			   
+                       {
+	              float: left;
+	       margin-right: 30px;
+	            padding: 5px;
+                       }				   
+					
+#footer  
+                       {
+	   background-color: #0000CD;
+	         text-align: left;
+	              width: 100%;
+	              color: white;
+                       }
+
+nav ul
+					   {
+            font-family: Impact;
+			           }
+			
+address 
+			           {
+	            padding: 50px;
+                       }
+
+nav              
+                       {
+	           position: sticky;
+                 	top: 0;
+		    font-family: Impact;
+           border-style: solid;
+           border-color: white;
+      border-left-width: 10px;
+	 border-right-width: 10px;
+    border-bottom-width: 10px;
+	   border-top-width: 0px;
+		               }
+
+nav ul               
+                       {
+	              width: 100%;
+        list-style-type: none;
+               overflow: hidden;
+       background-color: #333;
+	             margin: 0;
+	            padding: 0;
+                       }
+
+nav li a               
+                       {
+                display: block;
+                  color: white;
+             text-align: center;
+                padding: 1em 1em;
+        text-decoration: none;
+	          font-size: 2em;
+	              float: left;
+                       }
+					   
+.homerollover a:hover
+                       {
+	  border-left-width: 0px;
+	 border-right-width: 10px;
+    border-bottom-width: 0px;
+	   border-top-width: 0px;
+                       }
+	
+nav a:hover            
+                       {
+       background-color:#0000CD;
+	       border-style: solid;
+		   border-color: white;
+	  border-left-width: 10px;
+	 border-right-width: 10px;
+    border-bottom-width: 0px;
+	   border-top-width: 0px;
+	                   }
+
+.welcomeshow           
+                       {
+	       border-style: none;
+	                   }
+
+.active               
+                       {
+       background-color: #0000CD;	
+	   border-style: solid;
+	   border-width: 1px;
+	   border-color: white;
+	   border-top-width: 0px;
+	   border-bottom-width: 0px;
+	   border-left-width: 1px;
+	   border-right-width: 1px;
+                       }
+

@@ -110,7 +110,7 @@ nav a:hover {
 .tiles {
 	width: 10em;
 	height: 10em;
-	border: outset 2px white;
+	/*border: outset 2px white; */
 	padding: 5px;
 	margin: 10px;
 	background-color: grey;

@@ -145,16 +145,14 @@ nav a:hover {
 
 .events-show {
 	frameborder: 0;
-	width: 58%;
-	height: 300px;
-	allowfullscreen: true;
-	mozallowfullscreen: true;
-	webkitallowfullscreen: true;
+	width: 50%;
+	height: 75vh;
+	float: right;
 }
 .events-list {
 	frameborder: 0;
 	width: 38%;
-	height: 300px;
+	height: 75vh;
 }
 
 span {

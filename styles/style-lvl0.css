@@ -122,6 +122,16 @@ nav a:hover {
 	float: left;
 }
 
+.tiles2 {
+	width: 5em;
+	height: 5em;
+	/*border: outset 2px white; */
+	padding: 5px;
+	margin: 10px;
+	background-color: grey;
+	float: left;
+}
+
 .tiles:hover {
 	background-color: #444444;
 }
